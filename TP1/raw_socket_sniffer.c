@@ -3,6 +3,8 @@ Protocolos de Internet- Javier Ouret
 RAW SOCKETS 
 */
 
+#include <unistd.h>
+
 #include<stdio.h>
 #include<malloc.h>
 #include<string.h>
