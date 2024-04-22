@@ -16,7 +16,7 @@ int main(int argc, char const *argv[]) {
   struct sockaddr_in direccion;
   int cliente_sd = 0, leovalor;
   struct sockaddr_in serv_dir;
-  char *mensaje = “Mensaje desde el cliente";
+  char *mensaje = "Mensaje desde el cliente";
   char buffer[BUFFER_SIZE] = {0};
   
   // Creo el socket de flujo

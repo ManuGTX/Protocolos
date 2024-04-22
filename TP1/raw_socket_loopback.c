@@ -8,6 +8,7 @@
 #include <netinet/tcp.h>
 #include <arpa/inet.h>
 #include <net/ethernet.h>
+#include <net/if.h> // if_nametoindex(3)
 #include <netpacket/packet.h> // Agregar esta línea
 
 #define BUFFER_SIZE 65536
